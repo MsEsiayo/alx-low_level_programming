@@ -1,8 +1,17 @@
 #include <stdio.h>
-int main()
-{  
+
+/**
+* main - print the string in the put function
+*
+* Description: using the main function
+*
+* this program prints "Programming is like building a multilingual puzzle
+*
+* Return: 0 for always sucess
+*/
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
-    
 	getchar();
 	return (0);
 }
