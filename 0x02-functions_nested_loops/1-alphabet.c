@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main- Printing the alpha
+* print_alphabet - Printing the alpha
 *
 * Description: printing the alpha
 *
