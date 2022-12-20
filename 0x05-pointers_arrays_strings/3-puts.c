@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _puts - function that prints a string
- * @str: declaration of str 
+ * _puts - function that prints a string 
+ * @str: declaration of str
  * Return: Always 0.
  */
 void _puts(char *str)
 {
-  int c;
+int c;
 
 	for (c = 0; str[c] != 0; c++)
 	{
