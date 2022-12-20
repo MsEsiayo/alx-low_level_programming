@@ -6,14 +6,11 @@
  */
 void _puts(char *str)
 {
-char *c;
-int m;
+  int c;
 
-c = str;
-
-for (m = 0; c[m]; m++)
-{
-write (c[m]);
-}
-write('\n');
+	for (c = 0; str[c] != 0; c++)
+	{
+		_putchar(str[c]);
+	}
+	 _putchar('\n');
 }
