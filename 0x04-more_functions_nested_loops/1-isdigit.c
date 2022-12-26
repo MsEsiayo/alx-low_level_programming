@@ -1,14 +1,14 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-* _isupper - evalue if letter is uppercase .
-*@c: print int
-* Return: Always 0.
+* _isdigit - checks for digithood
+* @c: character to checked for digit membership
+* Return: 1 if digit, 0 if not digit
 */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
@@ -16,4 +16,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+
 }
